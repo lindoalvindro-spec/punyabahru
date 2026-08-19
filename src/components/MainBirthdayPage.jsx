@@ -556,7 +556,7 @@ export default function MainBirthdayPage() {
   const photoGallery = [
     { 
       id: 1, 
-      title: 'Bahru Ulum ✨', 
+      title: 'Cantik mu ✨', 
       date: 'Ulang Tahun ke-23', 
       location: 'Momen Istimewa',
       img: '/bahru 1.jpeg',
