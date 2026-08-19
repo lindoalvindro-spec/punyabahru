@@ -229,7 +229,7 @@ export default function GiftUnboxing({ onOpen }) {
           }}
         >
           <Sparkles size={14} color="#38bdf8" />
-          <span style={{ fontSize: '0.85rem', color: '#e0f2fe', fontWeight: '500' }}>Surprise Unboxing</span>
+          <span style={{ fontSize: '0.85rem', color: '#e0f2fe', fontWeight: '500' }}>Kejutan Spesial</span>
           <Sparkles size={14} color="#38bdf8" />
         </div>
 
@@ -243,7 +243,7 @@ export default function GiftUnboxing({ onOpen }) {
             lineHeight: '1.3',
           }}
         >
-          {isOpening ? '✨ Opening your gift... ✨' : 'Tap the gift box to open it 🎁'}
+          {isOpening ? '✨ Sedang membuka kadomu... ✨' : 'Ketuk kado ini untuk membukanya 🎁'}
         </h2>
       </div>
 
@@ -380,7 +380,7 @@ export default function GiftUnboxing({ onOpen }) {
         }}
       >
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
-        <span>Sent with love for Lucyna Majewska 🤍</span>
+        <span>Diberikan dengan segenap cinta untuk sayangnya aku, Bahru Ulum 🤍</span>
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
       </div>
     </div>

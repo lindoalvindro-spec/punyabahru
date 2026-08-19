@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '190826';
+  const CORRECT_PIN = '290626';
   const PIN_LENGTH = 6;
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
@@ -114,7 +114,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '190826' || enteredPin === '1908' || enteredPin === '1308' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '290626' || enteredPin === '2906' || enteredPin === '23' || enteredPin === '1234') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -137,7 +137,7 @@ export default function PasscodeScreen({ onUnlock }) {
         }
       });
     } else {
-      setErrorMsg('Incorrect passcode. Please try again 🤍');
+      setErrorMsg('Kode sandi salah. Silakan coba lagi 🤍');
       
       gsap.to(dotsRef.current, {
         x: [-12, 12, -8, 8, -4, 4, 0],
@@ -290,7 +290,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.5px',
             }}
           >
-            For You, Lucyna
+            Untukmu, Bahru Ulum
           </h2>
           <p
             className="neon-text-subtle"
@@ -300,7 +300,7 @@ export default function PasscodeScreen({ onUnlock }) {
               opacity: 0.9,
             }}
           >
-            Enter our secret passcode
+            Masukkan kode rahasia kita
           </p>
           <p
             style={{
@@ -311,7 +311,7 @@ export default function PasscodeScreen({ onUnlock }) {
               marginTop: '4px',
             }}
           >
-            Clue: 190826 ❤️
+            Petunjuk: 290626 ❤️
           </p>
         </div>
 
